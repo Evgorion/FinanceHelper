@@ -58,6 +58,7 @@ public class DefaultStorage implements Storage {
     }
 
 
+    @Override
     public List<Currency> getAvailableCurrencies() {
         return currencyList;
     }
@@ -66,6 +67,7 @@ public class DefaultStorage implements Storage {
         this.currencyList = currencyList;
     }
 
+    @Override
     public Map<Currency, BigDecimal> getCurrencyAmounts() {
         return currencyAmounts;
     }

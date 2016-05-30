@@ -1,5 +1,6 @@
 package com.dagaz.yvgeny.financehelper.core.start;
 
+import com.dagaz.yvgeny.financehelper.core.exceptions.AmountException;
 import com.dagaz.yvgeny.financehelper.core.exceptions.CurrencyException;
 import com.dagaz.yvgeny.financehelper.core.impls.DefaultStorage;
 
@@ -19,12 +20,17 @@ public class Start {
             Currency currencyRUB = Currency.getInstance("RUB");
 
             storage.addCurrency(currencyUSD);
+//            storage.addCurrency(currencyRUB);
             storage.addAmount(new BigDecimal(200), currencyUSD);
+            storage.addAmount(new BigDecimal(300), currencyRUB);
+            storage.expenseAmount(new BigDecimal(20), currencyUSD);
 
             System.out.println(storage.getAmount(currencyUSD));
+            System.out.println(storage.getAmount(currencyRUB));
+            System.out.println("storage = " + storage.getAvailableCurrencies());
 
 
-        } catch (CurrencyException e){
+        } catch (CurrencyException | AmountException e){
             e.printStackTrace();
         }
     }
