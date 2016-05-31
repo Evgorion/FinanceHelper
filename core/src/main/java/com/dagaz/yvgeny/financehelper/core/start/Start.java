@@ -20,7 +20,7 @@ public class Start {
             Currency currencyRUB = Currency.getInstance("RUB");
 
             storage.addCurrency(currencyUSD);
-//            storage.addCurrency(currencyRUB);
+            storage.addCurrency(currencyRUB);
             storage.addAmount(new BigDecimal(200), currencyUSD);
             storage.addAmount(new BigDecimal(300), currencyRUB);
             storage.expenseAmount(new BigDecimal(20), currencyUSD);
