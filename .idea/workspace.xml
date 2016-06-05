@@ -27,10 +27,20 @@
       <file leaf-file-name="DefaultStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/impls/DefaultStorage.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.2222223">
+              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="159" column="13" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1464968504000" expanded="true" signature="35:138" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -53,27 +63,6 @@
               <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperationType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/objects/OperationType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-              <folding>
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,7 +94,20 @@
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/start/Start.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#553#568#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLiteConnection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/database/SQLiteConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19125684">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AmountException.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AmountException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/exceptions/AmountException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09003601">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="e#229#230#0" expanded="true" />
@@ -1636,7 +1638,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5858110190000" />
+        <entry key="$PROJECT_DIR$" value="5858993825000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1912,6 +1914,7 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.8.11.2/dec208cba8debb0a8b9204b08d8d887d63041f0f/sqlite-jdbc-3.8.11.2.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/core" />
@@ -2060,10 +2063,11 @@
         <option value="$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/interfaces/TreeNode.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/abstracts/AbstractTreeNode.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/impls/DefaultStorage.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/start/Start.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/interfaces/Source.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/objects/OperationType.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/impls/DefaultSource.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/database/SQLiteConnection.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/start/Start.java" />
       </list>
     </option>
   </component>
@@ -2217,7 +2221,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>MissingOverrideAnnotation</id>
+            <id>AndroidLintNewApi</id>
           </State>
         </selected-state>
       </profile-state>
@@ -2389,6 +2393,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceHelper" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="abstracts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2430,10 +2456,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="android.project.structure.last.selected" value="core" />
+    <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="SearchEverywhereHistoryKey" value="Currency&#9;PSI&#9;JAVA://java.util.Currency" />
   </component>
@@ -2764,7 +2790,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="977" extended-state="7" />
+    <frame x="0" y="23" width="1920" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2828,9 +2854,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="159" column="13" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2895,6 +2919,7 @@
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#553#568#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2946,6 +2971,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.140255">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Currency#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2968,16 +2996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="86" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/start/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3039,14 +3057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3063,12 +3073,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/impls/DefaultStorage.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/exceptions/AmountException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="159" column="13" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3081,17 +3096,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/exceptions/AmountException.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/impls/DefaultStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09003601">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state vertical-scroll-proportion="-2.2222223">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
+            <marker date="1464968504000" expanded="true" signature="35:138" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/start/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#553#568#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/dagaz/yvgeny/financehelper/core/database/SQLiteConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19125684">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
