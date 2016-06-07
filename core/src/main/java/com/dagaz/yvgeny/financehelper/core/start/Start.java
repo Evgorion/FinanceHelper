@@ -1,13 +1,10 @@
 package com.dagaz.yvgeny.financehelper.core.start;
 
-import com.dagaz.yvgeny.financehelper.core.database.SQLiteConnection;
 import com.dagaz.yvgeny.financehelper.core.exceptions.AmountException;
 import com.dagaz.yvgeny.financehelper.core.exceptions.CurrencyException;
 import com.dagaz.yvgeny.financehelper.core.impls.DefaultStorage;
 
 import java.math.BigDecimal;
-import java.sql.ResultSet;
-import java.sql.Statement;
 import java.util.Currency;
 
 /**
@@ -17,35 +14,35 @@ public class Start {
     public static void main(String[] args) {
 
 
-//        try {
-//            DefaultStorage storage = new DefaultStorage();
-//            Currency currencyUSD = Currency.getInstance("USD");
-//            Currency currencyRUB = Currency.getInstance("RUB");
-//
-//            storage.addCurrency(currencyUSD);
-//            storage.addCurrency(currencyRUB);
-//            storage.addAmount(new BigDecimal(200), currencyUSD);
-//            storage.addAmount(new BigDecimal(300), currencyRUB);
-//            storage.expenseAmount(new BigDecimal(20), currencyUSD);
-//
-//            System.out.println(storage.getAmount(currencyUSD));
-//            System.out.println(storage.getAmount(currencyRUB));
-//            System.out.println("storage = " + storage.getAvailableCurrencies());
-//
-//
-//        } catch (CurrencyException | AmountException e){
-//            e.printStackTrace();
-//        }
+        try {
+            DefaultStorage storage = new DefaultStorage();
+            Currency currencyUSD = Currency.getInstance("USD");
+            Currency currencyRUB = Currency.getInstance("RUB");
 
-        try (Statement stmt = SQLiteConnection.getConnection().createStatement(); ResultSet rs = stmt.executeQuery("select * from storage")){
+            storage.addCurrency(currencyUSD);
+            storage.addCurrency(currencyRUB);
+            storage.addAmount(new BigDecimal(200), currencyUSD);
+            storage.addAmount(new BigDecimal(300), currencyRUB);
+            storage.expenseAmount(new BigDecimal(20), currencyUSD);
 
-            while (rs.next()){
-                System.out.println(rs.getString("name"));
-            }
+            System.out.println(storage.getAmount(currencyUSD));
+            System.out.println(storage.getAmount(currencyRUB));
+            System.out.println("storage = " + storage.getAvailableCurrencies());
 
-        } catch (Exception e) {
+
+        } catch (CurrencyException | AmountException e){
             e.printStackTrace();
         }
+
+//        try (Statement stmt = SQLiteConnection.getConnection().createStatement(); ResultSet rs = stmt.executeQuery("select * from storage")){
+//
+//            while (rs.next()){
+//                System.out.println(rs.getString("name"));
+//            }
+//
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
 
     }
 }

@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by yvgeny on 31/05/16.
  */
-public abstract class AbstractTreeNode implements TreeNode{
+public abstract class AbstractTreeNode implements TreeNode {
 
     private long id;
     private List<TreeNode> childs = new ArrayList<>();
@@ -66,7 +66,7 @@ public abstract class AbstractTreeNode implements TreeNode{
 
     @Override
     public long getId() {
-        return 0;
+        return id;
     }
 
     public void setId(long id) {
@@ -83,6 +83,12 @@ public abstract class AbstractTreeNode implements TreeNode{
         }
 
         return null;
+    }
+
+
+    @Override
+    public boolean hasChilds(){
+        return !childs.isEmpty();// если есть дочерние элементы - вернуть true
     }
 
 
@@ -115,5 +121,4 @@ public abstract class AbstractTreeNode implements TreeNode{
     public void setName(String name) {
         this.name = name;
     }
-
 }

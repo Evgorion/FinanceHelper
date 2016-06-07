@@ -14,27 +14,23 @@ import java.util.Map;
 
 // TODO изменить тип BigDecimal на готовый клаяя по работе с деньгами Money
 
-public interface Storage {
+public interface Storage extends TreeNode{
 
-    String getName();       //  обязятельно реализовать свойство name в дочерних классах
+    // получение баланса (остатка)
+    Map<Currency, BigDecimal> getCurrencyAmounts(); // остаток по каждой доступной валюте в хранилище
+    BigDecimal getAmount(Currency currency) throws CurrencyException; // остаток по определенной валюте
+    BigDecimal getApproxAmount(Currency currency) throws CurrencyException;// примерный остаток в переводе всех денег в одну валюту
 
-    // Получить баланс  (остаток)
 
-    Map<Currency, BigDecimal> getCurrencyAmounts();  // остаток по каждой доступной валюте
-    BigDecimal getAmount(Currency currency) throws CurrencyException;         // остаток по указаннйо валюте
-    BigDecimal getApproxAmount(Currency currency) throws CurrencyException;   // примерный общий остаток по всем валютам
+    // изменение баланса
+    void changeAmount(BigDecimal amount, Currency currency) throws CurrencyException; // изменение баланса по определенной валюте
+    void addAmount(BigDecimal amount, Currency currency) throws CurrencyException; // добавить сумму в валюте
+    void expenseAmount(BigDecimal amount, Currency currency) throws CurrencyException, AmountException; // отнять сумму в валюте
 
-    // работа с бапансом добавить и убавить
-
-    void changeAmount(BigDecimal amount, Currency currency) throws CurrencyException;    // изменить баланс по указанной валюте
-    void addAmount(BigDecimal amount, Currency currency) throws CurrencyException;       // довавить к балансу в указанной валюте
-    void expenseAmount(BigDecimal amount, Currency currency) throws CurrencyException, AmountException;   // отнять сумму от указанного баланаса в указанной валюте
-
-    // работа с валютой
-
-    void addCurrency(Currency currency) throws CurrencyException;        // добавить новый тип валюты в хранилеще
-    void deleteCurrency(Currency currency) throws CurrencyException;     // удалить тип валюты из хранилеща
-    Currency getCurrency(String code) throws CurrencyException;          // получить валюту по коду
-    List<Currency> getAvailableCurrencies();    // получить лист всех валют в хранилеще
+    // работа с валютами (в отдельный интерфейс нет смысла выделять)
+    Currency getCurrency(String code) throws CurrencyException;	// поулчить валюту по коду
+    void addCurrency(Currency currency) throws CurrencyException; // добавить новую валюту в хранилище
+    void deleteCurrency(Currency currency) throws CurrencyException; // удалить валюту из хранилища
+    List<Currency> getAvailableCurrencies(); // получить все доступные валюты хранилища в отдельной коллекции
 
 }
